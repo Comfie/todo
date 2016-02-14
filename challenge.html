@@ -7,6 +7,7 @@
 
     <link href="www/lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="www/css/style.css" rel="stylesheet">
+    <link href="css/ionic.app.css" rel="stylesheet"> 
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -21,20 +22,27 @@
     <!-- your app's js -->
     <script src="www/js/app.js"></script>
   </head>
-  <body ng-app="starter" bgcolor="black">
+<body ng-app bgcolor="grey">
 
-    <div class="bar bar-header bar-positive">
-  <h1 class="title">The Header Of The Application</h1>
+   <div class="card">
+   
+    <div class="container">
+    <div align="left">
+   <h1>Buy at Price</h1>
+   <h1>{{370.00}}</h1>
+    <div class="col-lg-12" align="center">
+  <h1 class="page-header">{{378.99}}
+ </h1>
+ <h3>{{"This is the Price for the BitCoin"}}</h3>
+ <div align="right" class="aside">
+ <h1>Sell at Price</h1>
+ <h1>{{378.99}}</h1>
 </div>
-
-<ul class="list">
-    <li class="item" style="bold">Name<li/>
-      <li class="item">Comfort</li>
-      <li class="item">Tinashe</li>
-      <li class="item">Nyatsine</li>
-</ul>
-
+</div>
+</div>
+</div>
+</div>
+<script src="../www/lib/angular/angular.min.js"></script>
 
   </body>
 </html>
-
